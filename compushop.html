@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CompuShop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-image: url('fondo.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #373E51;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #373E51;
+    }
+
+    .logo-img {
+      height: 40px;
+      width: auto;
+      margin-right: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #373E51;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #373E51;
+    }
+
+    .hero {
+      text-align: center;
+      color: #373E51;
+      padding: 150px 20px;
+      background: rgba(228, 240, 243, 0.5);
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .contenido {
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      padding: 40px 20px;
+      border-radius: 8px;
+      margin-top: -50px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      border-bottom: 2px solid #007acc;
+      display: inline-block;
+      padding-bottom: 5px;
+      color: #007acc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.9);
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#home" class="logo">
+      <img src="Logo2.png" alt="Logo" class="logo-img">
+      <span>Mi Tienda</span>
+    </a>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>CompuShop</h1>
+    <p>Los mejores productos tecnológicos a tu alcance</p>
+  </section>
+
+  <div class="contenido">
+    <section class="section" id="productos">
+      <h2>Productos Destacados</h2>
+      <p>Aquí puedes colocar imágenes, descripciones y botones de "Comprar".</p>
+    </section>
+
+    <section class="section" id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Necesitas ayuda o tienes alguna duda? Escríbenos:</p>
+      <ul>
+        <li>📞 Teléfono: <a href="tel:+525513949861">55 1394 9861</a></li>
+        <li>📞 WhatsApp: <a href="https://wa.me/525513949861" target="_blank">55 1394 9861</a></li>
+        <li>✉️ Correo: <a href="mailto:compushop.ventas01@gmail.com">compushop.ventas01@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Mi Tienda. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
